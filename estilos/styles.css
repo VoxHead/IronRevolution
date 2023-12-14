@@ -1,0 +1,176 @@
+:root{
+    ---background-one: #318d9bf9;
+    ---background_two: #ffffff;
+    ---background_three: black;
+    ---background_four: whitesmoke;
+
+    ---shadow: 0 4px 8px rgba(0, 0, 0, 0.789);
+
+}
+
+/*NavBar*/
+.bg {
+    background-color: var(---background_three);
+    color: var(---background_four);
+}
+
+.log {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+/*Productos Main*/
+
+.center {
+    object-fit: cover;
+}
+
+/*Planes de Entrenamiento*/
+
+.body {
+    background-color: var(---background-one);
+}
+
+
+.precio {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.pcustom {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.pcustom2 {
+    padding: 60px 0px;
+    text-align: center;
+    font-size: 2.8em;
+    color: var(---background_three);
+}
+.card {
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.789);
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+.card_title {
+    font-size: 2.6em;
+}
+    
+.col {
+    list-style: none;
+    padding: 22px;
+}
+
+/*login*/
+
+.form-login {
+    max-width: 350px;
+}
+
+/*Registro*/
+.form_register {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+/*Nosotros*/
+
+.custom {
+    font-size: 2.8em;
+    padding-bottom: 50px;
+
+}
+
+.n_card {
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.789);
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: var(---background_two);
+
+}
+
+.cards {
+
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    flex-direction: auto;
+}
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.n_title {
+    padding: 20px 0px;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    line-height: 2;
+}
+
+.n_container {
+
+    display: flex;
+    align-items: normal;
+    justify-content: space-around;
+    padding: 120px 0px;
+    gap: 120px;
+}
+
+.n__container {
+
+    padding: 120px 0px;
+    gap: 120px;
+    text-align: center;
+}
+
+.n_img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+@media (max-width: 764px) {
+    .n_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 60px;
+    }
+
+    .n_img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+}
+
+/*Footer*/
+
+.footer{
+    background-color: var(---background_three);
+    color: var(---background_four);
+}
+@media(max-width:768px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
